@@ -1,0 +1,121 @@
+.navbar{
+  height: 60px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: #055eb1;
+}
+  .Build_post_form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    height: 300px;
+    .Input_box{
+      width: 90%;
+      height: 33px;
+      margin-bottom: 20px;
+      input {
+        width: 100%;
+        height: 100%;
+        border: 1px solid lightgrey;
+        padding: 5px;
+        outline: none;
+      }
+      textarea {
+        width: 100%;
+        height: 200px;
+        resize: none;
+        border: 1px solid lightgrey;
+        padding: 5px;
+        outline: none;
+      }   
+    }
+  } 
+    .Buttons{
+      button {
+        width: 100px;
+        height: 33px;
+        margin-right: 10px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        color: #fff;
+        border-radius: 5px;
+      }
+      .for_cancel_button {
+        background-color: red;
+      }
+      .for_post_button {
+        background-color: #026aab;
+      }
+    }
+  .Logo{
+      cursor: pointer; 
+      img{
+        width: 200px;
+      }
+    }
+    .search_input{
+      height: 30px;
+      width: 268px;
+      padding: 3px 16px 3px 16px;
+      min-height: auto;
+      min-width: auto;
+      background-color: #efefef;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        line-height: 18px;
+        font-size: 14px;
+        width: 90%;
+      }
+    }
+    .Icons{
+      display: flex;
+      align-items: center;
+      width: 180px;
+      justify-content: space-evenly;
+      height: 40px;
+        .Icon{
+          width: 32px;
+          height: 33px;
+          cursor: pointer;
+      }
+        .Icon {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+    }
+.Menu1{
+  position: relative;
+  bottom: -8px;
+  display: block;
+  background: #fff;
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  .MenuElement{
+  height: 20px;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+  }
+  
+  
+  

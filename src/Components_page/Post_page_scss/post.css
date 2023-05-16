@@ -1,0 +1,215 @@
+.Container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.UserName {
+  color: black;
+}
+
+.Containers {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+.Containers .UserInformation {
+  height: 60px;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.Containers .UserInformation img {
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+}
+
+.Containers .UserInformation p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.Containers .Content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.Containers .Content img {
+  width: 100%;
+}
+
+.Containers .for_post_CTA {
+  width: 90%;
+  margin: auto;
+}
+
+.Containers .for_post_CTA .for_CTA_buttons {
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Containers .for_post_CTA .for_CTA_buttons img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Containers .for_post_CTA .for_like_count p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Containers .for_post_CTA .for_post_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.Containers .for_post_CTA .for_post_description h5 {
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  width: 100%;
+  height: "40px";
+  overflow-y: hidden;
+  word-break: break-all;
+  min-height: 40px;
+  font-weight: 500;
+}
+
+.Containers .for_post_CTA .for_post_description .for_description_buttons {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.Containers .for_post_CTA .for_post_description .for_description_buttons p {
+  cursor: pointer;
+}
+
+.Containers .for_post_CTA .for_post_description .for_recent_comment {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Containers .for_post_CTA .for_post_description .for_recent_comment strong {
+  margin-right: 10px;
+}
+
+.Containers .for_post_CTA .for_comment_input {
+  padding: 10px 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid lightgray;
+}
+
+.Containers .for_post_CTA .for_comment_input input {
+  -webkit-box-flex: 0.9;
+      -ms-flex: 0.9;
+          flex: 0.9;
+  height: 30px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+
+.Containers .for_post_CTA .for_comment_input button {
+  background-color: green;
+  border: 1px solid green;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Containers .comment {
+  padding: 15px;
+}
+
+.Containers .comment .post-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.Containers .for_user_image {
+  margin-right: 20px;
+}
+
+.Containers .for_user_image img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.Containers .for_user_comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+}
+
+.Containers .for_user_comment strong {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=post.css.map */

@@ -1,0 +1,60 @@
+body{
+  background: rgba(128, 128, 128, 0.683);
+}
+.Container{
+    width: 100%;
+    margin-top: 80px;
+}
+.Profile_user{
+  background: linear-gradient(#2C3E50, #4CA1AF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 40px;
+}
+.user-image {
+    margin-right: 30px;
+    z-index: -100;
+    width: 155px;
+    height: 155px;
+}
+.user-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+.user-image h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+.PostContainer{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(00px, 265px));
+    grid-gap: 70px;
+    justify-content: center;
+}
+.img{
+    width: 90%;
+    cursor: pointer;
+    border: 3px solid rgb(116, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img {
+    width: 90%;
+}
+.for_count{
+    color: white;
+}
+.added_number{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.name{
+    color: white;
+}
